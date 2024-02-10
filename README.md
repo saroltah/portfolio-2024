@@ -14,6 +14,8 @@ Here you can follow the process of creating this website, and also have a guide 
 
 3. Write my home page - I like to write the text and create sections before I style. I created basic menu with bootstrap and used font awesome icons
 
+4. position the sections with bootstrap
+
 # Technologies I use:
 
 -[VS Code](https://code.visualstudio.com/)
