@@ -1,0 +1,33 @@
+/*general*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Menu */
+
+.navbar-collapse {
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 0;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+.navbar li,
+.navbar-brand {
+  padding: 20px 30px;
+}
+
+/* Home page */
+
+.container {
+  margin: 40px 20px;
+}
+
+.menu-paragraph {
+  text-align: center;
+  margin: 0 auto;
+}
