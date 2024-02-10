@@ -16,18 +16,55 @@
 .navbar-nav {
   text-align: center;
 }
-.navbar li,
-.navbar-brand {
+.navbar li {
   padding: 20px 30px;
+}
+.navbar-brand {
+  padding: 20px 12px;
 }
 
 /* Home page */
 
-.container {
+.main {
   margin: 40px 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-shrink: 1;
+  align-items: center;
 }
 
-.menu-paragraph {
+.homepage-paragraph {
   text-align: center;
   margin: 0 auto;
+  padding: 0 20px;
+}
+
+.on-side-info {
+  margin: 0 30px;
+}
+
+/*footer*/
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  padding: 30px;
+  width: 100%;
+}
+
+footer > div {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-shrink: 1;
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+footer .social-media a {
+  padding: 25px;
 }
