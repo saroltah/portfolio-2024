@@ -4,6 +4,7 @@
 }
 
 /*general*/
+
 * {
   padding: 0;
   margin: 0;
@@ -12,7 +13,7 @@
 }
 body {
   width: 100%;
-  height: fit-content;
+  height: 100%;
 }
 
 /* Menu */
@@ -34,25 +35,43 @@ body {
   font-family: var(--written-font);
 }
 
+/* only big screen */
+
+#side-info {
+  margin: 0 30px;
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+.my-photo img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+.my-info {
+  text-align: center;
+}
 /* Home page */
 
+.profile-photo img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
 .main {
-  margin: 40px 20px;
   display: flex;
   justify-content: space-evenly;
   flex-shrink: 1;
   align-items: center;
+  height: 300%;
 }
-.homepage-paragraph {
+
+.homepage {
   text-align: center;
   margin: 0 auto;
-  width: ;
 }
-.homepage-paragraph > h4 {
+.homepage > h4 {
   font-family: var(--written-font);
-}
-.on-side-info {
-  margin: 0 30px;
 }
 .bubbles {
   margin: 40px;
@@ -97,13 +116,14 @@ body {
   position: absolute;
   top: 130px;
 }
+
 /*footer*/
 
 footer {
   padding: 30px;
   width: 100%;
-  position: fixed;
   bottom: 0px;
+  position: relative;
 }
 
 footer > div {
