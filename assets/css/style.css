@@ -5,15 +5,8 @@
 
 /*general*/
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: var(--main-font);
-}
 body {
-  width: 100%;
-  height: 100%;
+  font-family: var(--main-font);
 }
 
 /* Menu */
@@ -41,7 +34,7 @@ body {
 /* only big screen */
 
 #side-info {
-  margin: 0 30px;
+  margin: 0 30px 20px 30px;
   background-color: aqua;
   padding: 20px;
 }
@@ -53,6 +46,14 @@ body {
 .my-info {
   text-align: center;
   margin-top: 30px;
+}
+#side-info h4 {
+  margin: 30px;
+}
+#side-info a {
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: none;
 }
 /* Home page */
 
@@ -75,7 +76,7 @@ body {
   text-align: center;
   margin: 0 auto;
 }
-.homepage > h2 {
+.homepage > h1 {
   font-size: 40px;
 }
 .homepage > h2 {
@@ -99,12 +100,13 @@ body {
   border: 1px solid black;
   padding: 20px;
   border-radius: 50%;
-  width: 110px;
-  height: 80px;
+  width: 130px;
+  height: 100px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
   margin-bottom: 40px;
+  font-size: 20px;
 }
 .second-row-bubbles {
   display: flex;
@@ -116,7 +118,6 @@ footer {
   width: 100%;
   bottom: 0px;
   position: relative;
-  margin-top: 300px;
 }
 
 footer > div {
@@ -141,5 +142,26 @@ footer .social-media a {
 @media (min-width: 768px) {
   .col-md-8 {
     flex: unset;
+  }
+}
+@media (max-width: 768px) {
+  .homepage > h1 {
+    font-size: 40px;
+    margin-top: 25px;
+  }
+
+  .homepage > h4 {
+    font-family: var(--written-font);
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  .get-to-know-me {
+    font-family: var(--written-font);
+    font-size: 40px;
+    margin: 30px 0px 70px 0px;
+  }
+  .click-on-bubble {
+    font-size: 30px;
   }
 }
