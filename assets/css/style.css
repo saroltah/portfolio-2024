@@ -94,11 +94,14 @@ body {
 .my-photo img {
   width: 300px;
   height: auto;
-  border-radius: 50%;
+  border-radius: 30%;
+  box-shadow: var(--neon-box-shadow-blue);
 }
 .my-info {
   text-align: center;
   margin-top: 30px;
+  font-family: var(--written-font);
+  font-size: 30px;
 }
 #side-info h4 {
   margin: 30px;
@@ -110,7 +113,7 @@ body {
   margin: 10px;
   font-size: 20px;
   text-decoration: none;
-  color: var(--dark-pink);
+  color: var(--dark-blue);
 }
 #side-info a i {
   padding: 5px;
@@ -136,6 +139,7 @@ body {
   color: white;
   background-color: black;
   padding-top: 30px;
+  margin-bottom: 40px;
 }
 
 .homepage {
@@ -144,10 +148,12 @@ body {
 }
 .homepage > h1 {
   font-size: 40px;
+  color: var(--light-blue);
 }
 .homepage > h2 {
   margin: 10px;
   font-size: 26px;
+  color: var(--light-blue);
 }
 .homepage > h4 {
   font-family: var(--written-font);
@@ -167,20 +173,23 @@ body {
   display: flex;
   border: 1px solid var(--middle-blue);
   padding: 20px;
-  border-radius: 50%;
-  width: 130px;
-  height: 100px;
+  border-radius: 30%;
+  width: 150px;
+  height: 120px;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   font-size: 20px;
-  background: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/valeriia-neganova-dEvKYQWc3Qw-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
   box-shadow: var(--neon-box-shadow-pink);
 }
 
 .click-on-bubble a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .click-on-bubble a:hover {
