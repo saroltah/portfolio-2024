@@ -1,0 +1,58 @@
+:root {
+  --main-font: "Sulphur Point", sans-serif;
+  --written-font: "Allura", cursive;
+  --lighter-blue: #6cf9fc;
+  --light-blue: #07ebfe;
+  --middle-blue: #36d8fd;
+  --dark-blue: #0cbffe;
+  --light-pink: #fc69f8;
+  --middle-pink: #f739c0;
+  --dark-pink: #f641d5;
+  --purple: #8d3bb6;
+  --vice-city-background: #3494e6;
+  --vice-city-gradient: linear-gradient(to right, #3494e6, #ec6ead);
+  --neon-text-shadow-green: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  --neon-text-shadow-pink: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px #fc69f8, 0 0 82px rgb(255, 0, 132), 0 0 92px #fc69f8,
+    0 0 102px #fc69f8, 0 0 151px #fc69f8;
+  --neon-text-shadow-blue: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px #36d8fd, 0 0 82px #36d8fd, 0 0 92px #36d8fd, 0 0 102px #36d8fd,
+    0 0 151px #36d8fd;
+  --neon-box-shadow-blue: 0 0 1px #fff, 0 0 1.2px #fff, 0 0 2.5px #fff,
+    0 0 5px #36d8fd, 0 0 10px #36d8fd, 0 0 11px #36d8fd, 0 0 12px #36d8fd,
+    0 0 16px #36d8fd;
+  --neon-box-shadow-pink: 0 0 1px #fff, 0 0 1.2px #fff, 0 0 2.5px #fff,
+    0 0 5px #fc69f8, 0 0 10px #fc69f8, 0 0 11px #fc69f8, 0 0 12px #fc69f8,
+    0 0 16px #fc69f8;
+}
+.about {
+  width: 70%;
+  color: white;
+  margin: 20px auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/valeriia-neganova-dEvKYQWc3Qw-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  text-align: center;
+  padding: 10px;
+}
+.about h1,
+.about h3 {
+  font-family: var(--written-font);
+  text-align: center;
+}
+.about h1 {
+  font-size: 60px;
+  margin-top: 40px;
+  text-shadow: var(--neon-text-shadow-blue);
+}
+.about h3 {
+  font-size: 40px;
+  margin: 30px 0px;
+  color: var(--light-pink);
+}
+.about ul {
+  list-style-type: none;
+  color: var(--light-blue);
+}

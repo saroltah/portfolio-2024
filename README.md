@@ -31,3 +31,11 @@ Here you can follow the process of creating this website, and also have a guide 
 Inspiration websites:
 
 -[Canva template](https://www.canva.com/p/templates/EAFCa1Va6II-brown-grey-creative-modern-online-portfolio/)
+
+-[Vice city background gradient](https://gradient.page/css/ui-gradients/vice-city)
+
+-[Vice city color palette](https://www.reddit.com/r/wallpaper/comments/nv785q/gta_vice_city_color_palette_3840x2160/)
+
+-[neon light](https://css-tricks.com/how-to-create-neon-text-with-css/)
+
+-[background image](https://unsplash.com/photos/a-city-skyline-at-night-dEvKYQWc3Qw)
