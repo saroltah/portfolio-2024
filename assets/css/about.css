@@ -26,6 +26,18 @@
     0 0 5px #fc69f8, 0 0 10px #fc69f8, 0 0 11px #fc69f8, 0 0 12px #fc69f8,
     0 0 16px #fc69f8;
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/*about*/
+
 .about {
   width: 70%;
   color: white;
@@ -55,35 +67,61 @@ h2 {
 .about ul {
   list-style-type: none;
   color: var(--light-blue);
+  margin: 0;
+  padding: 0;
 }
+
+footer {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+/*projects*/
 
 .projects {
   color: white;
-  width: 70%;
-  margin: 20px auto;
 }
 .projects h1 {
   margin: 60px auto;
 }
-
-.projects img {
-  max-height: 300px;
-  max-width: 300px;
-  box-shadow: var(--neon-box-shadow-pink);
+.grid-container {
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 20px;
+  grid-column-gap: 30px;
+  margin: 0 auto;
 }
-.projects .col {
-  padding: 15px;
-  margin: 15px;
-  text-align: center;
-}
-.middle-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.learn-more-btn {
-  color: var(--lighter-blue);
+.projects a {
+  text-decoration: none;
 }
 .projects ul {
+  text-align: center;
   list-style-type: none;
+  padding: 0px;
+  margin: 0;
+}
+
+.project-name-django {
+  text-align: center;
+  text-shadow: var(--neon-text-shadow-pink);
+}
+.project-description-django {
+  color: var(--light-blue);
+  text-shadow: var(--neon-text-shadow-blue);
+  font-size: 30px;
+  text-align: center;
+}
+.grid-image {
+  border: 5px solid var(--dark-blue);
+  box-shadow: var(--neon-box-shadow-pink);
+}
+.blue-text {
+  color: var(--light-blue);
+}
+/*media queries*/
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
 }

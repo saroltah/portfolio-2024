@@ -39,3 +39,5 @@ Inspiration websites:
 -[neon light](https://css-tricks.com/how-to-create-neon-text-with-css/)
 
 -[background image](https://unsplash.com/photos/a-city-skyline-at-night-dEvKYQWc3Qw)
+
+-[vinyl image](https://unsplash.com/photos/black-vinyl-record-on-black-vinyl-record-fi3_lDi3qPE)
