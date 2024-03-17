@@ -36,7 +36,9 @@ body {
   overflow-x: hidden;
 }
 
-/*about*/
+body {
+  color: white;
+}
 
 .about {
   width: 70%;
@@ -49,94 +51,93 @@ body {
   text-align: center;
   padding: 10px;
 }
-h1,
-h2 {
+
+h1 {
   font-family: var(--written-font);
   text-align: center;
-}
-h1 {
-  font-size: 60px;
+  font-size: 10em;
   margin-top: 40px;
-  text-shadow: var(--neon-text-shadow-blue);
-}
-h2 {
-  font-size: 40px;
-  margin: 30px 0px;
-  color: var(--light-pink);
-}
-.about ul {
-  list-style-type: none;
-  color: var(--light-blue);
-  margin: 0;
-  padding: 0;
-}
-
-footer {
-  padding-left: 60px;
-  padding-right: 60px;
-}
-
-/*projects*/
-
-.projects {
-  color: white;
-}
-.projects h1 {
-  margin: 60px auto;
-}
-.grid-container {
-  display: grid;
-  width: 90%;
-  grid-template-columns: repeat(2, 1fr);
-  grid-row-gap: 20px;
-  grid-column-gap: 30px;
-  margin: 0 auto;
-}
-.projects a {
-  text-decoration: none;
-}
-.projects ul {
-  text-align: center;
-  list-style-type: none;
-  padding: 0px;
-  margin: 0;
-}
-
-.project-name-django {
-  text-align: center;
   text-shadow: var(--neon-text-shadow-pink);
+  margin-bottom: 60px;
 }
-.project-description-django {
-  color: var(--light-blue);
-  text-shadow: var(--neon-text-shadow-blue);
-  font-size: 30px;
+
+.location,
+.social-icons,
+.send-message {
   text-align: center;
+  margin: 0 auto;
+  margin: 20px;
+  padding: 10px;
+  font-size: 30px;
+  letter-spacing: 4px;
 }
-.grid-image {
-  border: 5px solid var(--dark-blue);
+.contact span,
+.contact .send-message {
+  font-family: var(--written-font);
+  color: var(--light-pink);
+  font-size: 50px;
+}
+.contact a {
+  text-decoration: none;
+  color: var(--light-blue);
+}
+.form-container {
+  padding: 50px;
+  border: 1px solid var(--light-blue);
+  margin: 0 auto;
+  text-align: center;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../images/valeriia-neganova-dEvKYQWc3Qw-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no repeat;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#contact-form {
+  padding: 50px;
+  border: 1px solid var(--light-blue);
+}
+#contact-form input,
+#contact-form textarea {
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: var(--light-pink);
+  margin: 20px;
+}
+#contact-form textarea {
+  width: 80%;
+}
+#contact-form label {
+  font-family: var(--written-font);
+  font-size: 30px;
+}
+#submit-button {
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
+  font-family: var(--written-font);
+  letter-spacing: 10px;
+  color: white;
+  background-color: black;
   box-shadow: var(--neon-box-shadow-pink);
 }
-.blue-text {
-  color: var(--light-blue);
+#submit-button:hover {
+  color: var(--dark-pink);
 }
-.learn-more-btn {
-  font-size: 25px;
-  display: block;
-  text-align: center;
-  margin: 0px auto;
-  font-family: var(--written-font);
-  color: var(--light-pink);
-}
+
 /*media queries*/
 @media (max-width: 768px) {
-  .about {
+  .form-container {
+    padding: 5px;
     width: 90%;
   }
-  .grid-container {
-    grid-template-columns: 1fr;
+  #contact-form {
+    padding: 20px 0;
   }
-  footer {
-    padding-left: 20px;
-    padding-right: 20px;
+  #contact-form input,
+  #contact-form textarea {
+    width: 90%;
+    margin: 20px 0;
   }
 }

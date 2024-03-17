@@ -26,6 +26,8 @@ Here you can follow the process of creating this website, and also have a guide 
 
 -[Canva](https://www.canva.com/)
 
+-[Email.js](https://www.emailjs.com/)
+
 # Sources:
 
 Inspiration websites:
@@ -41,3 +43,7 @@ Inspiration websites:
 -[background image](https://unsplash.com/photos/a-city-skyline-at-night-dEvKYQWc3Qw)
 
 -[vinyl image](https://unsplash.com/photos/black-vinyl-record-on-black-vinyl-record-fi3_lDi3qPE)
+
+-[email.js video](https://www.youtube.com/watch?v=qxWDVRyc95E&ab_channel=QuickCodingTuts)
+
+-[email.js official documentation](https://www.emailjs.com/docs/tutorial/creating-contact-form/)
