@@ -127,6 +127,24 @@ footer {
   font-family: var(--written-font);
   color: var(--light-pink);
 }
+
+/*skills*/
+
+.skills {
+  color: white;
+}
+.squares div {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+.yes-box {
+  background-color: var(--light-blue);
+  box-shadow: var(--neon-box-shadow-blue);
+}
+.no-box {
+  box-shadow: var(--neon-box-shadow-blue);
+}
 /*media queries*/
 @media (max-width: 768px) {
   .about {
