@@ -133,6 +133,9 @@ footer {
 .skills {
   color: white;
 }
+.squares {
+  margin: 0px 20px;
+}
 .squares div {
   display: inline-block;
   width: 40px;
@@ -145,6 +148,35 @@ footer {
 .no-box {
   box-shadow: var(--neon-box-shadow-blue);
 }
+.yes-box-pink {
+  background-color: var(--light-pink);
+  box-shadow: var(--neon-box-shadow-pink);
+}
+.no-box-pink {
+  box-shadow: var(--neon-box-shadow-pink);
+}
+.development h2 {
+  color: var(--light-blue);
+}
+.development h2,
+.languages h2 {
+  font-size: 50px;
+  margin-top: 50px;
+}
+.development,
+.languages {
+  margin: 0 auto;
+  width: 70%;
+  font-size: 18px;
+  font-style: italic;
+}
+.development > div,
+.languages > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
 /*media queries*/
 @media (max-width: 768px) {
   .about {
@@ -156,5 +188,9 @@ footer {
   footer {
     padding-left: 20px;
     padding-right: 20px;
+  }
+  .development,
+  .languages {
+    width: 95%;
   }
 }
